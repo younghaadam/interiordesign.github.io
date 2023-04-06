@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    margin-right: 70px;
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+#nav-home {
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+hr {
+    margin: 1px;
+    width: 45px;
+   
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: end;
+    margin-right: 50px;
+    
+    
+}
+
+h6 {
+    color: whitesmoke;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 16px;
+    margin-left: 80px;
+    margin-top: 50px;
+    top: 50px;
+    left: 85px;
+    height: 16px;
+    border: solid 1px white;
+    width: 73px;
+
+}
+.main-container {
+    display: flex;
+}
+
+.firstimg-container > img {
+    width: auto;
+    height: 500px;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 200px;
+   
+}
+
+.header3andP {
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.header3andP > h3 {
+   margin-top: 20px;
+   font-weight: 500px;
+   font-family: 'Lora', serif;
+   line-height: 61px;
+
+}
+
+.header3andP > p {
+    margin-top: 20px;
+    font-weight: 410px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header3andP {
+    color: white;
+}
+
+
+#readmore {
+    color: white;
+}
+
+.down-container {
+    position: absolute;
+    right: 150px;
+    bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    background-color: #181719;
+    width: 410px;
+    height: 189px;
+}
+
+
+
+.img-container > img {
+    height:auto;
+    width: 60px;
+    border-radius: 30px;
+}
+
+
+
+.text-container > p {
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+#myname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+.text-container,#interior {
+    font-size: 12px;
+    
+}
+
+.year-design > p {
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Lora', serif;
+
+}
+
+
+
+
+p {
+    color: white;
+}
+
+.img-container, .text-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 400px;
+}
